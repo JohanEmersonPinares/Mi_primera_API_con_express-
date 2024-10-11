@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true // Esto es importante para importar módulos como Express
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
